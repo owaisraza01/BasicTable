@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'all';
+    src: url(./Fredoka-VariableFont_wdth\,wght.ttf);
+}
+/* *{
+    background-color: antiquewhite;
+}
+#clickme{
+    border: none;
+    width: 200px;
+    height: 60px;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: violet;
+    color: aliceblue;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px grey;
+    margin-left: 590px;
+    margin-top: 210px;
+    text-shadow: 3px 3px 3px gray;
+} */
+table{
+    width: 100%;
+    border-color: black;
+    font-family: 'all';
+    box-shadow: 8px 8px 8px black;
+}
+td{
+    /* padding-right: 20px; */
+    /* padding: 10px; */
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 5px;
+}
+th{
+    text-align: left;
+    background-color: black;
+    color: aliceblue;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+body{
+    background-color: cadetblue;
+}
+.odd{
+    background-color: rgb(102, 92, 92);
+    color: aliceblue;
+}
+.even{
+    background-color: rgb(15, 15, 15);
+    color: aliceblue;
+}
+#footer{
+    background-color: rgb(102, 92, 92);
+    color: aliceblue;
+    text-align: center;
+
+}
+#main{
+    background-color: black;
+    width: 50%;
+    margin: auto;
+    margin-top: 90px;
+}
+.button{
+    background-color: rgb(54, 133, 136);
+    border: none;
+    font-family: 'all';
+    border-radius: 5px;
+    height: 25px;
+    color: aliceblue;
+}
+.odd:hover{
+    background-color: rgb(138, 105, 105) ;
+}
+.even:hover{
+    background-color: aliceblue;
+    color: black;
+}
+th:hover{
+    background-color: aliceblue;
+    color: black;
+}
+#footer:hover{
+    background-color: rgb(138, 105, 105);
+}
